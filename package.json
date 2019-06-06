@@ -1,0 +1,14 @@
+{
+  "name": "beat-generator",
+  "version": "0.0.0",
+  "description": "Awesome stuff ;-)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "scribbletune": "^2.0.2"
+  }
+}
