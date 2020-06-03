@@ -17,7 +17,7 @@ function generateMelo (){
     pattern: 'x-'.repeat(8)
   });
 
-  scribble.midi(melo1.concat(melo2), 'melo.midi');
+  scribble.midi(melo1.concat(melo2), './output/melo.midi');
 }
 
 
@@ -36,7 +36,7 @@ function generatePerc() {
     shuffle: true
   });
 
-  scribble.midi(perc1.concat(perc1, perc1, perc2), 'perc.midi');
+  scribble.midi(perc1.concat(perc1, perc1, perc2), './output/perc.midi');
 }
 
 
